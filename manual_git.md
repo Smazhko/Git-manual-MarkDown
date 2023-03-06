@@ -27,3 +27,14 @@
 
 ## Семинар 2. Работа с ветвлением
 
+
+### Команды для работы с ветками
+git branch  
+git branch <new_branch_name>  
+git checkout -b <new_branch_name>  
+git branch -M <new_name>
+git branch -d <exist_branch_name>  
+git checkout <exist_branch_name>  
+git merge <exist_branch_name>  
+git log --graph  
+git log --oneline -all
