@@ -27,5 +27,14 @@
 
 ## Семинар 2. Работа с ветвлением
 ветвление (branching) означает отклонение от основной линии разработки, после которого работа перестает затрагивать эту самую основную линию.
-### Команды
 
+## Настройки GIT
+* git version
+* git config --global user.name "Your Name"
+* git config --global user.email "your_email@whatever.com"
+* mkdir hello - создать каталог
+* cd hello - переключиться на каталог
+* touch hello.html - создать файл
+* git config --global alias.co checkout
+* git config --global alias.ci commit
+* git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
